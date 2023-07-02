@@ -1,0 +1,46 @@
+/********** Header **********/
+#header-nav {
+    background-color: #f7f7f7;
+    border-radius: 0;
+    border: 0;
+}
+#logo-img {
+    background-image: url('../images/cropped-ohpoke_logga-768x570.png');
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+}
+
+/********** Custom styles **********/
+.title {
+    margin-top: 15px;
+}
+div.content {
+    position: relative;
+    margin-bottom: calc(var(--bs-gutter-x) * .5);
+    background-color: #DEE7E7;
+    border : 1px solid #b8c8d0;
+    border-radius: 10px;
+    padding: 10px;
+    overflow: hidden;
+}
+div.plate-header {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+div.plate h2 {
+    width: 200px;
+}
+div.plate-1 h2 {
+    background-color: #8aa9b8;
+}
+div.plate-2 h2 {
+    background-color: #627882;
+}
+div.plate-4 h2 {
+    background-color: #000000;
+}
